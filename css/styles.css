@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkblue;
+    color: white;
+    font-size: 18px;
+}
+
+.content{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.btn{
+    padding: 5px;
+    margin-top: 25px;
+    border: 2px orange solid;
+    border-radius: 30px;
+    color: white;
+    background-color: darkblue;
+    //height: 45px;
+    display: inline-block;
+}
+
+.btn:hover{
+    background-color: orange;
+    transition: 0.5s;
+}
+
+input{
+    margin: 5px 10px;
+    width: 10px;
+    background-color: darkblue;
+    border: none;
+    color:white;
+    font-size: inherit;
+    transition: 0.5s;
+}
+
+.field{
+    border: 2px orange solid;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0 auto;
+    height: 45px;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.result{
+    background-color: white;
+    color: black;
+    margin: 5px 30px;
+    padding: 1px;
+    margin-top: 10px;
+}
+
+.result:hover{
+    background-color: orange;
+    transition: 0.5s;
+}
+
+.random_art{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.open{
+    width: 250px;
+    transition: 0.5s;
+}
+
+.title, .text{
+    margin-left: 30px;
+}
